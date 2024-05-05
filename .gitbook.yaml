@@ -1,0 +1,6 @@
+root: ./docs/
+
+structure:
+  readme: welcome.md
+  summary: SUMMARY.md
+  releases: releases.json
