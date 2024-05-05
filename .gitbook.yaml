@@ -4,3 +4,9 @@ structure:
   readme: welcome.md
   summary: SUMMARY.md
   releases: releases.json
+
+plugins:
+  - server:
+      routes:
+        - path: /releases.json
+          methods: GET
